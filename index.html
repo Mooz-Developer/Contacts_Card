@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interducing myself</title>
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-search-pseudo-elements></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="avatar.jpg">
+        <h2>MoozIsMe</h2>
+        <span>Front-End Developer</span>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <button><i class="fas fa-phone-alt"></i></button>
+        <div class="contacts">
+            <button><i class="fab fa-facebook-f"></i></button>
+            <button><i class="fab fa-instagram"></i></button>
+            <button><i class="fab fa-youtube"></i></button>
+            <button><i class="fab fa-telegram"></i></button>
+            <button><i class="fab fa-snapchat"></i></button>
+            <button><i class="fab fa-github"></i></button>
+        </div>
+    </div>
+
+    <script>
+        let button = document.querySelector('button');
+
+        button.onclick = () => document.body.classList.toggle('contact');
+    </script>
+</body>
+</html>
